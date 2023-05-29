@@ -22,7 +22,9 @@ module.exports = {
       darkThemeGray: '#212121',
     },
     extend: {
-      backgroundImage: {},
+      backgroundImage: {
+        hero: "url('/src/app/img/banner.jpeg')",
+      },
     },
   },
   plugins: [],
