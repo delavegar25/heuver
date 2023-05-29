@@ -35,7 +35,7 @@ const TransitionFragment: React.FC<{}> = () => {
               <div className='py-5 pl-4 flex justify-between'>
                 <Link
                   to='/'
-                  className='cursor-pointer text-base font-medium dark:text-white hover:text-purple hover:duration-500'
+                  className='cursor-pointer text-base font-medium dark:text-white hover:text-purple dark:hover:text-lighterPurple hover:duration-500'
                 >
                   Discover
                 </Link>
@@ -44,7 +44,7 @@ const TransitionFragment: React.FC<{}> = () => {
               <div className='py-5 pl-4 flex justify-between'>
                 <Link
                   to='/'
-                  className='cursor-pointer text-base font-medium dark:text-white hover:text-purple hover:duration-500'
+                  className='cursor-pointer text-base font-medium dark:text-white hover:text-purple dark:hover:text-lighterPurple hover:duration-500'
                 >
                   Features
                 </Link>
@@ -54,7 +54,7 @@ const TransitionFragment: React.FC<{}> = () => {
               <div className='py-5 pl-4 flex justify-between'>
                 <Link
                   to='/'
-                  className='cursor-pointer text-base font-medium dark:text-white hover:text-purple hover:duration-500'
+                  className='cursor-pointer text-base font-medium dark:text-white hover:text-purple dark:hover:text-lighterPurple hover:duration-500'
                 >
                   About
                 </Link>
@@ -64,7 +64,7 @@ const TransitionFragment: React.FC<{}> = () => {
               <div className='py-5 pl-4 flex justify-between'>
                 <a
                   href='/'
-                  className='cursor-pointer text-base font-medium dark:text-white hover:text-purple hover:duration-500'
+                  className='cursor-pointer text-base font-medium dark:text-white hover:text-purple dark:hover:text-lighterPurple hover:duration-500'
                 >
                   Haul
                 </a>
@@ -73,7 +73,7 @@ const TransitionFragment: React.FC<{}> = () => {
               <div className='py-5 pl-4 flex justify-between'>
                 <Link
                   to='/'
-                  className='cursor-pointer text-base font-medium dark:text-white hover:text-purple hover:duration-500'
+                  className='cursor-pointer text-base font-medium dark:text-white hover:text-purple dark:hover:text-lighterPurple hover:duration-500'
                 >
                   Contact
                 </Link>
@@ -83,14 +83,17 @@ const TransitionFragment: React.FC<{}> = () => {
             <div className='mt-6'>
               <a
                 href='https://auth.heuvera.com/signup'
-                className='w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base text-white bg-purple hover:border-purple hover:bg-transparent hover:text-purple hover:duration-300'
+                className='w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base text-white bg-purple hover:border-purple hover:bg-transparent dark:bg-lighterPurple dark:hover:border-lighterPurple dark:hover:bg-lighterPurple hover:duration-300'
               >
                 Request Access
                 <ChevronRightIcon className='ml-2 -mr-1 w-5 h-5' />
               </a>
               <p className='mt-6 text-center text-base font-medium dark:text-white'>
                 Got a Heuvera Account?{' '}
-                <a href='https://auth.heuvera.com/' className='text-purple'>
+                <a
+                  href='https://auth.heuvera.com/'
+                  className='text-purple dark:text-lighterPurple'
+                >
                   Login
                 </a>
               </p>

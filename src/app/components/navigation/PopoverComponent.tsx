@@ -5,6 +5,7 @@ import { NavButton, PopoverButton } from './NavbarStyles';
 import logo from '../../../../public/heuvera.png';
 import Image from 'next/image';
 import { Link, animateScroll as scroll } from 'react-scroll';
+import Heuvera from '@/app/icons/Heuvera';
 
 const PopoverComponent: React.FC<{}> = () => {
   return (
@@ -12,12 +13,7 @@ const PopoverComponent: React.FC<{}> = () => {
       <div className='flex justify-start lg:w-0 lg:flex-1'>
         <a href='/'>
           <span className='sr-only'>Heuvera</span>
-          <Image
-            className='h-10 w-auto sm:h-10'
-            src={logo}
-            alt='Heuvera Logo'
-            placeholder='blur'
-          />
+          <Heuvera />
         </a>
       </div>
       <div className='-mr-2 -my-2 md:hidden'>
@@ -29,31 +25,31 @@ const PopoverComponent: React.FC<{}> = () => {
       <Popover.Group as='nav' className='hidden md:flex space-x-10 ,'>
         <Link
           to='#section1'
-          className='text-base font-medium hover:text-purple dark:text-white hover:duration-500'
+          className='text-base font-medium hover:text-purple dark:hover:text-lighterPurple dark:text-white hover:duration-500'
         >
           Discover
         </Link>
         <Link
           to='#section2'
-          className='text-base font-medium hover:text-purple dark:text-white hover:duration-500'
+          className='text-base font-medium hover:text-purple dark:hover:text-lighterPurple dark:text-white hover:duration-500'
         >
           Features
         </Link>
         <Link
           to='#section3'
-          className='text-base font-medium hover:text-purple dark:text-white hover:duration-500'
+          className='text-base font-medium hover:text-purple dark:hover:text-lighterPurple dark:text-white hover:duration-500'
         >
           About
         </Link>
         <Link
           to='#section4'
-          className='text-base font-medium hover:text-purple dark:text-white hover:duration-500'
+          className='text-base font-medium hover:text-purple dark:hover:text-lighterPurple dark:text-white hover:duration-500'
         >
           Haul
         </Link>
         <Link
           to='#section5'
-          className='text-base font-medium hover:text-purple dark:text-white hover:duration-500'
+          className='text-base font-medium hover:text-purple dark:hover:text-lighterPurple dark:text-white hover:duration-500'
         >
           Contact
         </Link>
