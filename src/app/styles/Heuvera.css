@@ -1,0 +1,8 @@
+/* Custom CSS classes */
+.svg-fill-light {
+  fill: #000; /* Light mode fill color */
+}
+
+.svg-fill-dark {
+  fill: #fff; /* Dark mode fill color */
+}
