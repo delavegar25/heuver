@@ -1,0 +1,43 @@
+.preloader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.preloader-icon {
+  width: 64px;
+  height: 64px;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-blink {
+  animation: blink 1s infinite;
+}
+
+@keyframes glow {
+  0% {
+    filter: drop-shadow(0 0 8px #fff);
+  }
+  50% {
+    filter: drop-shadow(0 0 20px #fff);
+  }
+  100% {
+    filter: drop-shadow(0 0 8px #fff);
+  }
+}
+
+.animate-glow {
+  animation: glow 1.5s infinite;
+}
