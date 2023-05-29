@@ -1,7 +1,8 @@
-import React, { FC } from 'react';
+import React from 'react';
+import Navigation from '../components/navigation/Navbar';
 
-const Index: React.FC<FC> = () => {
-  return <div>Index</div>;
+const Index: React.FC = () => {
+  return <Navigation />;
 };
 
 export default Index;
