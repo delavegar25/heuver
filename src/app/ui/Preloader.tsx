@@ -1,7 +1,9 @@
 import React from 'react';
 import '../styles/Preloader.css';
+import useDarkModeDetection from '../hooks/useCheckDarkMode';
 
 const Preloader: React.FC = () => {
+  const isDarkMode = useDarkModeDetection();
   return (
     <div className='flex justify-center items-center h-screen'>
       <div className='preloader-icon animate-pulse'>
@@ -18,7 +20,7 @@ const Preloader: React.FC = () => {
           xmlSpace='preserve'
         >
           <path
-            fill='#8000FF'
+            fill={isDarkMode ? '#db1499' : '#8000FF'}
             opacity='1.000000'
             stroke='none'
             d='
