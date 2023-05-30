@@ -20,6 +20,7 @@ module.exports = {
       grayvariant: '#CECECE',
       darkTheme: '#121212',
       darkThemeGray: '#212121',
+      grayvariant: '#242424',
     },
     extend: {
       backgroundImage: {
