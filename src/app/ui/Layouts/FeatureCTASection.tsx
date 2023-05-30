@@ -26,7 +26,7 @@ const FeatureCtaSection: React.FC = () => {
         <div className='flex flex-col items-center lg:flex-row lg:justify-center relative z-10 gap-2'>
           {isMobile ? (
             <CtaButton>
-              <span>Join the Wait List</span>
+              <span>Join the Waitlist</span>
               <ChevronRightIcon className='ml-2 -mr-1 w-5 h-5' />
             </CtaButton>
           ) : (
