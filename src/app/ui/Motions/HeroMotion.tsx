@@ -6,8 +6,6 @@ const HeroMotion: React.FC = () => {
   return (
     <>
       <motion.div
-        drag
-        dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
         className='absolute w-full h-full'
         style={{ position: 'fixed' }}
       >
@@ -30,8 +28,6 @@ const HeroMotion: React.FC = () => {
         />
       </motion.div>
       <motion.div
-        drag
-        dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
         className='absolute w-full h-full'
         style={{ position: 'fixed' }}
       >
@@ -54,8 +50,6 @@ const HeroMotion: React.FC = () => {
         />
       </motion.div>
       <motion.div
-        drag
-        dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
         className='absolute w-full h-full'
         style={{ position: 'fixed' }}
       >
@@ -78,8 +72,6 @@ const HeroMotion: React.FC = () => {
         />
       </motion.div>
       <motion.div
-        drag
-        dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
         className='absolute w-full h-full'
         style={{ position: 'fixed' }}
       >
