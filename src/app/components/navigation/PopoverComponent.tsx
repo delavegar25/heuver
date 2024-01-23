@@ -25,31 +25,31 @@ const PopoverComponent: React.FC<{}> = () => {
       <Popover.Group as='nav' className='hidden md:flex space-x-10 ,'>
         <Link
           to='#section1'
-          className='text-base font-medium hover:text-purple dark:hover:text-lighterPurple dark:text-white hover:duration-500'
+          className='text-base font-medium hover:text-purple dark:hover:text-lighterPurple dark:text-white hover:duration-500 cursor-pointer'
         >
           Discover
         </Link>
         <Link
           to='#section2'
-          className='text-base font-medium hover:text-purple dark:hover:text-lighterPurple dark:text-white hover:duration-500'
+          className='text-base font-medium hover:text-purple dark:hover:text-lighterPurple  dark:text-white hover:duration-500 cursor-pointer'
         >
           Features
         </Link>
         <Link
           to='#section3'
-          className='text-base font-medium hover:text-purple dark:hover:text-lighterPurple dark:text-white hover:duration-500'
+          className='text-base font-medium hover:text-purple dark:hover:text-lighterPurple dark:text-white hover:duration-500 cursor-pointer'
         >
           About
         </Link>
         <Link
           to='#section4'
-          className='text-base font-medium hover:text-purple dark:hover:text-lighterPurple dark:text-white hover:duration-500'
+          className='text-base font-medium hover:text-purple dark:hover:text-lighterPurple dark:text-white hover:duration-500 cursor-pointer'
         >
           Haul
         </Link>
         <Link
           to='#section5'
-          className='text-base font-medium hover:text-purple dark:hover:text-lighterPurple dark:text-white hover:duration-500'
+          className='text-base font-medium hover:text-purple dark:hover:text-lighterPurple dark:text-white hover:duration-500 cursor-pointer'
         >
           Contact
         </Link>
